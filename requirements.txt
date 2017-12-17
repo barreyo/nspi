@@ -1,2 +1,2 @@
-
-RPi.GPIO = ""
+requests==2.18
+RPi.GPIO==0.6
