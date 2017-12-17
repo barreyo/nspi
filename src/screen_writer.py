@@ -25,5 +25,5 @@ class ScreenWriter(object):
     def write_to_lcd(self, value, dir):
         """Write out to lcd."""
         self.lcd.clear()
-        self.lcd.message(value)
+        self.lcd.message(str(value))
         self.lcd.message(self._direction_to_char(dir))
