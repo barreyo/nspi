@@ -80,4 +80,5 @@ class NightscoutAPI(object):
         Returns:
             The latest readings in JSON format.
         """
-        return self._get(API_URI_V1 + 'entries/current.json')
+        request_uri = self.server_root + API_URI_V1 + 'entries/current.json'
+        return self._get(request_uri)
