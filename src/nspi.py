@@ -4,7 +4,7 @@ import argparse
 import logging
 import os
 
-from ns_api import NightscoutApi
+from ns_api import NightscoutAPI
 from screen_writer import ScreenWriter
 
 logger = logging.getLogger(__name__)
@@ -27,7 +27,7 @@ def main():
         logger.info('No args supplied using env variable NS_SERVER_ROOT')
         root = os.environ['NS_SERVER_ROOT']
 
-    api = NightscoutApi(server_root=root)
+    api = NightscoutAPI(server_root=root)
     res = api.get_latest_entry()
 
     logger.info('Response from server: %s', res)
