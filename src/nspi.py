@@ -30,6 +30,7 @@ def main():
 
     api = NightscoutAPI(server_root=root)
     res = api.get_latest_entry()
+    res = res[0]
 
     logger.info('Response from server: %s', res)
 
