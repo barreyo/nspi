@@ -2,7 +2,7 @@
 
 import logging
 
-from . import DIR_TO_CHAR
+from constants import DIR_TO_CHAR
 
 from Adafruit_CharLCD import Adafruit_CharLCD
 
