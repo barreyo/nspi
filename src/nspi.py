@@ -1,4 +1,5 @@
-"""TODO."""
+# -*- coding: utf-8 -*-
+"""Script that fetches the information and outputs to the display."""
 
 import argparse
 import logging

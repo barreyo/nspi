@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Global constants."""
 
 DIR_TO_CHAR = {'NONE': '⇼', 'DoubleUp': '⇈', 'SingleUp': '↑',
